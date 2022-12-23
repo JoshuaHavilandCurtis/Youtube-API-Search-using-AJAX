@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube API Search using AJAX</title>
+</head>
+<body>
+    <input type="button" id="search" value="Search Youtube">
+    <div id="output1"></div>
+
+    <script>
+        window.onload = init;
+
+        function init() {
+            document.getElementById('search').addEventListener('click', ySearch, false);
+        }
+
+        function ySearch() {
+            let searchTerm = document.getElementById('searchYoutube').value; 
+            var url = "";
+            getJSON()
+        }
+
+        function getJSON() {
+
+        }
+
+    </script>
+</body>
+</html>
